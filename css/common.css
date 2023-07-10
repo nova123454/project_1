@@ -16,13 +16,13 @@ header {
 }
 
 #logo img {
-    margin: 10px;
+    margin: 20px;
     width: 50%;
 }
 
 
 #search {
-    width: 230px;
+    width: 220px;
     margin: 0 auto;
     float: left;
 
@@ -40,17 +40,17 @@ header {
 
 
 nav {
-    width: 700px;
-    height: 100px;
+    width: 730px;
+    height: 140px;
     float: left;
-    margin: 55px 0 0 30px;
+    margin: 30px 0 0 10px;
 
 }
 
 
 
 nav ul {
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -59,7 +59,7 @@ nav ul {
 
 nav ul li {
     float: left;
-    margin: 20px 0 0 90px;
+    margin: 45px 0 0 90px;
     padding: 0;
 }
 
@@ -72,7 +72,25 @@ nav ul a:hover {
     color: green;
 }
 
+.util > ul > li {
+    float: left;
+    position: relative;
+    padding: 0 12px 0 0;
+    font-size: 13px;
+    color: #828482;}
 
+
+
+a {
+    background: transparent;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.header .util{position: absolute;
+    top: 10px;
+    right: 0;}
 
 footer {
     width: 100%;
