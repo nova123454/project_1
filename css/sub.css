@@ -1,0 +1,394 @@
+@charset "uft-8";
+
+#item {
+    width: 1220px;
+    height: 700px;
+    margin: auto;
+}
+
+#item h3 {
+    font-size: 22px;
+    margin: 30px 0 15px 0;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: darkgoldenrod;
+    text-align: left;
+
+}
+
+#item p {
+    margin: 0 0 5px 0;
+    font-size: 13px;
+}
+
+#item img {
+    width: 550px;
+    height: 550px;
+    margin: auto;
+ 
+}
+
+#item img:hover{transform: scale(1.2); transition-duration: 1s; overflow: hidden;}
+
+#item button:hover{color:blue; background:white; border:2px solid red;}
+
+#item table {
+    float: right;
+    width:500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+td {
+    padding: 10px 15px;
+    font-size: 13px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+td:first-child {
+    width: 100px;
+}
+
+button {
+    margin: 3px;
+    cursor: pointer;
+}
+
+button:first-child {
+    background-color: #a2abb0;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+button:nth-child(2) {
+    background-color: #a2abb0;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+button:nth-child(3) {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: #666;
+    border: 1px solid #333;
+}
+
+button:nth-child(4) {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: #666;
+    border: 1px solid #333;
+}
+
+
+
+
+#candy {
+    width: 1220px;
+    height: 800px;
+    margin: 0 auto;
+
+}
+
+#candy .tabmenu {
+    width: 1060px;
+    height: 60px;
+    line-height: 50px;
+    margin: 100px;
+    
+}
+
+#candy .tabmenu li {
+    float: left;
+    width: 250px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid darkgray;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+margin: 0 auto;
+background-color: beige;
+}
+
+#candy img {
+    width: 800px;
+    height: 400px;
+    margin-left: 200px;
+    float: justify-self;
+}
+
+#candy h1 {
+    font-size: 35px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    color: darkgoldenrod;
+    border-bottom: solid 2px gray;
+    margin: 10px;
+}
+
+
+#candy h2 {
+    font-size: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    color: orange;
+    margin: 10px;
+}
+
+
+#candy p {
+    font-size: 18px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: left;
+    color: #666;
+    margin: 30px;
+}
+
+#tip {
+    width: 1220px;
+    height: 1300px;
+    margin: 0 auto;
+
+}
+
+#tip h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: darkorange;
+}
+
+
+#tip h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 25px;
+    color: gray;
+}
+
+#tip h3 {
+    margin: 25px;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: darkorange;
+}
+
+#tip p {
+    font-size: 18px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: left;
+}
+
+.box {
+    box-shadow: 1px 1px 1px #ddd;
+    width: 95%;
+    height: 80%;
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 30px;
+    text-align: left;
+}
+
+
+.box2 {
+    float: none;
+    margin: 0 auto;
+}
+
+
+
+#nova {
+    width: 1220px;
+    height: 600px;
+    margin: 0 auto;
+    bottom: 50px;
+    padding: 20px;
+   
+}
+
+.box56 h3 {
+    margin: 0 auto;
+}
+
+.table3 {
+    width: 1100px;
+    height: 260px;
+    margin: 5px auto;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-spacing: 0px;
+    border-top: 1px solid #666;
+    border-left: 1px solid #333;
+}
+
+.table3 h3 {
+    font-size: 14px;
+    margin: 20px auto;
+}
+
+.table3 th {
+    width: 150px;
+    height: 35px;
+    text-align: left;
+    padding: 5px 30px;
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
+    font-size: 12px;
+}
+
+.table3 td {
+    background-color: #fff;
+    border-radius: 2px;
+    border-bottom: 1px solid #333;
+    font-size: 14px;
+}
+
+
+
+#nova h2 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+#explain {
+    width: 1220px;
+    height: 750px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#explain h2 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+
+
+#explain h3 {
+    text-align: left;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: plum;
+}
+
+#explain p {
+    text-align: left;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #a2abb0;
+}
+
+#explain .explain1 {
+    margin: 40px;
+    display: flex;
+    border: solid 1px #333;
+}
+
+#explain .explain1 ul {
+    text-align: left;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 50px;
+    color: darkgray;
+}
+
+#explain .explain1 ul li {
+    text-align: left;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+#shock {
+    width: 1220px;
+    height: 650px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+#shock h2 {
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+
+.submea {
+    width: 1100px;
+    height: 100px;
+    margin: 50px 0 0 0;
+    border-bottom: 1px solid #333;
+}
+
+.submea button{background-color: orange; border-radius: 10px;
+width: 120px; height: 30px; margin: 10px; padding: 5px;
+ }
+
+ .submea button:hover {color:blue; background:white; border:1px solid blue;
+opacity: 1;  }
+
+
+.submea ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    margin: 0;
+}
+
+.submea li:nth-of-type(2) {
+    border-bottom: 1px solid #333;
+    padding: 10px 0;
+    background-color: darkorange;
+}
+
+.submea li {
+    margin: 55px 20px 0 10px;
+    color: #666;
+}
+
+.submea ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin:30px;
+    font-weight: 200;
+}
+
+.table4{border-collapse: collapse;
+width: 100%;}
+
+.table4 th, td{padding: 8px;
+text-align: left; border-bottom: 2px solid #ddd; margin: 30px;}
+
+.table4 tr:hover{background-color:blue;}
